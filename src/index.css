@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+.color-body {
+  background-color: white;
+  height: 100vh;
+}
+.nav-style {
+  height: 90px;
+  width: 1440px;
+  background-color: #b45b35;
+}
+
+.logo {
+  height: 72px;
+  width: 78px;
+}
+
+.search {
+  position: relative;
+}
+
+.search input {
+  height: 40px;
+  text-indent: 25px;
+  border-radius: 20px;
+}
+
+.search input:focus {
+  box-shadow: none;
+  border: 2px solid red;
+}
+.search .fa-search {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+
+.card {
+  position: relative;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+  height: 375px;
+}
+
+.card__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: none;
+  transition: 0.5s ease;
+  background-color: #393839;
+}
+
+.card:hover .card__overlay {
+  opacity: 0.8;
+}
+
+.overlay__text {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.font {
+  font-family: "Almarai", sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+
+.color {
+  color: #b45b35;
+  background-color: #b45b35;
+}
+
+.card-detalis {
+  height: 370px;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+}
+.card-story {
+  height: 300px;
+  border-radius: 20px;
+  background-color: #f8f8f8;
+}
+.img-movie {
+  height: 360px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.card-text-details {
+  color: #555555;
+  font-family: Almarai;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 49px;
+}
+
+.card-text-story {
+  color: #555555;
+  font-family: Almarai;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 32px;
+}
+.card-text-title {
+  color: #555555;
+  font-family: Almarai;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 49px;
+}
+
+
